@@ -11,6 +11,9 @@ $(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
 # Inherit device configuration
 $(call inherit-product, device/huawei/angler/aosp_angler.mk)
 
+# vendor blobs
+$(call inherit-product, vendor/huawei/angler/angler-vendor.mk)
+
 DEVICE_PACKAGE_OVERLAYS += device/huawei/angler/overlay-slim
 
 ## Device identifier. This must come after all inclusions
