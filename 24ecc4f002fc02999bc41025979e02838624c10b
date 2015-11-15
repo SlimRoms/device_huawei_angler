@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_fb3e0f29",
+        "filename": "slim.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2015-11-15T16:43:29Z",
+      "side": 1,
+      "message": ", \"branch\":      \"mm6.0\"",
+      "revId": "24ecc4f002fc02999bc41025979e02838624c10b",
+      "serverId": "f8201d64-d729-4630-b91d-5f8be02869f0",
+      "unresolved": false
+    }
+  ]
+}
