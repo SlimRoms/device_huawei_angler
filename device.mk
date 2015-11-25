@@ -228,7 +228,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.data_no_toggle=1
 
 PRODUCT_PROPERTY_OVERRIDES += \
-	persist.radio.data_con_rprt=true
+    persist.radio.data_con_rprt=true
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.ril.force_eri_from_xml=true
 
 # configure the HWUI memory limits
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-hwui-memory.mk)
