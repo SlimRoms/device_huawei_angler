@@ -370,6 +370,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # setup dalvik vm configs.
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-dalvik-heap.mk)
 
+# drmservice prop
+PRODUCT_PROPERTY_OVERRIDES += \
+drm.service.enabled=true
+
 $(call inherit-product-if-exists, hardware/qcom/msm8994/msm8994.mk)
 $(call inherit-product-if-exists, vendor/qcom/gpu/msm8994/msm8994-gpu-vendor.mk)
 
