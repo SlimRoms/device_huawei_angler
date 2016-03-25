@@ -211,6 +211,7 @@ static void power_hint(struct power_module *module, power_hint_t hint,
     switch(hint) {
         case POWER_HINT_VSYNC:
         break;
+/* Disable userspace touchboost and replace with cpu_boost in-kernel implementation
         case POWER_HINT_INTERACTION:
         {
             int duration_hint = 0;
@@ -286,7 +287,7 @@ static void power_hint(struct power_module *module, power_hint_t hint,
             handle_downmigrate = interaction_with_handle(handle_downmigrate, duration_downmigrate, sizeof(resources_downmigrate)/sizeof(resources_downmigrate[0]), resources_downmigrate);
             handle_upmigrate = interaction_with_handle(handle_upmigrate, duration_upmigrate, sizeof(resources_upmigrate)/sizeof(resources_upmigrate[0]), resources_upmigrate);
         }
-        break;
+        break;*/
         case POWER_HINT_VIDEO_ENCODE:
             process_video_encode_hint(data);
         break;
