@@ -88,8 +88,8 @@ write /sys/devices/system/cpu/cpu7/online 1
 write /sys/module/msm_performance/parameters/cpu_max_freq "4:4294967295 5:4294967295 6:4294967295 7:4294967295"
 
 # input boost configuration
-write /sys/module/cpu_boost/parameters/input_boost_freq "0:960000 1:960000 2:960000 3:960000 4:0 5:0 6:0 7:0"
-write /sys/module/cpu_boost/parameters/input_boost_ms 750
+write /sys/module/cpu_boost/parameters/input_boost_freq "0:1344000 1:1344000 2:1344000 3:1344000 4:0 5:0 6:0 7:0"
+write /sys/module/cpu_boost/parameters/input_boost_ms 40
 
 # Switch to row scheduler and increase readahead buffer to 1024Kb
 write /sys/block/mmcblk0/queue/scheduler row
