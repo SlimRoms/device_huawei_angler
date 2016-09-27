@@ -477,6 +477,10 @@ drm.service.enabled=true
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sys.sdcardfs=true
 
+# Enable sdcardfs
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sys.sdcardfs=true
+
 $(call inherit-product-if-exists, hardware/qcom/msm8994/msm8994.mk)
 $(call inherit-product-if-exists, vendor/qcom/gpu/msm8994/msm8994-gpu-vendor.mk)
 
