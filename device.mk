@@ -311,6 +311,7 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
+    com.android.nfc_extras \
     libnfc-nci \
     NfcNci \
     Tag \
@@ -384,9 +385,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 else
 $(error "you must decide whether to write manufacturer and model information into created media files for this device. ONLY ENABLE IT FOR PUBLIC DEVICE.")
 endif  #TARGET_PRODUCT
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.ril.force_eri_from_xml=true
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hwui.texture_cache_size=72 \
