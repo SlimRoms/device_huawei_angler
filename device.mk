@@ -315,7 +315,7 @@ PRODUCT_PACKAGES += \
     libnfc-nci \
     NfcNci \
     Tag \
-    nfc_nci.angler \
+    nfc_nci.pn54x.default \
     android.hardware.nfc@1.0-impl \
 
 # Keymaster HAL
