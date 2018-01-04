@@ -1,0 +1,7 @@
+[
+ {
+   "repository":  "SlimRoms/kernel_huawei_angler",
+   "target_path": "kernel/huawei/angler",
+   "branch":      "or8.1"
+ }
+]
